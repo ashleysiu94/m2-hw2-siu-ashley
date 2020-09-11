@@ -4,6 +4,19 @@ header {
 
 img {
   width: 380px;
-  height: 380px;
+  height: 350px;
   object-fit: cover;
+  margin: 0 5px;
+}
+
+/****************************
+
+      MIN WIDTH 1000PX
+
+****************************/
+
+@media (min-width: 1000px) {
+  .row {
+    flex-wrap: nowrap;
+  }
 }
